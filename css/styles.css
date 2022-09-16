@@ -1,0 +1,79 @@
+/*основной цвет текста #757575  */
+/* вторичный цвет текста #212121 */
+/* акцент  #2196F3 */
+
+/* белый цвет текста  #FFFFFF */
+
+/* для футера цвет текста (тел, почта)  rgba(255, 255, 255, 0.6) */
+
+
+/* основной цвет фона  #F5F5F5 */
+/* вторичный цвет фона #F5F4FA  */
+/* цвет фона футера  #2F303A */
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-background-color:#F5F5F5;
+    --white-text-color: #FFFFFF;
+    }
+
+body {  
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Навігація сторінки */
+
+.logo {
+    color: #000000;
+}
+.accent {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-color); 
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
+/* Контактні дані */
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+ /* < !-- Основний контент сторінки --> */
+
+ .button {
+    color: var(--white-text-color);
+    background-color: #188CE8;
+ }
+
+.solution-title {
+    color: var(--white-text-color);
+}
+
+ .section-title{
+    color: var(--title-text-color);
+ }
+
+
+
+ /* Стилі для portfolio.html */
