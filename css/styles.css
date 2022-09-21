@@ -78,7 +78,6 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -116,9 +115,20 @@ ul {
 
  .section-title {
     color: var(--title-text-color);
- } 
+}
 
-  .name { 
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+}
+  
+.profession {   
+    line-height: 1.18;
+    font-size: 16px;        
+}
+
+.name { 
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -154,6 +164,7 @@ ul {
 .location .link {
     color:var(--white-text-color);
 
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -166,10 +177,12 @@ ul {
 
 .location .link-contacts {
     color: rgba(255, 255, 255, 0.6) ;
-
+    
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    
 }
 .location .link-contacts:hover,
 .location .link-contacts:focus {
@@ -197,7 +210,7 @@ ul {
     background-color: var(--accent-color);
 }
 
-.works {    
+.works {  
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -205,8 +218,13 @@ ul {
 }
 
 .text {
+    color: var(--primary-text-color);
+
     font-size: 16px;
     line-height: 1.88;
-}
+ }
 
+.content-link {
+    text-decoration: none;
+}
 
